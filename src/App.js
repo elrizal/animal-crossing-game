@@ -1,18 +1,104 @@
+
 import React, { Component } from 'react';
 import logo from './logo.svg';
+import ReactDOM from 'react-dom';
 import './App.css';
+import 'typeface-roboto'; 
+import "./styles/bootstrap.css";
+import "./styles/card.css";
+
+import AppBar from 'material-ui/AppBar';
+import NavBar from 'material-ui/AppBar';
+import MenuItem from 'react-bootstrap/lib/MenuItem';
+import Nav from 'react-bootstrap/lib/Nav';
+import Navbar from 'react-bootstrap/lib/Navbar';
+import NavDropdown from 'react-bootstrap/lib/NavDropdown';
+import NavItem from 'react-bootstrap/lib/NavItem';
+import Grid from 'react-bootstrap/lib/Grid';
+import Row from 'react-bootstrap/lib/Row';
+import Col from 'react-bootstrap/lib/Col';
+import Panel from 'react-bootstrap/lib/Panel';
+
+import AnimalCard from "./components/Card";
+import animals from "./animals.js";
+//  import Panel from "components/Panel";
 
 class App extends Component {
+    state = {
+      animals
+    }
+
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+      <Navbar>
+        <Navbar.Header>
+          <Navbar.Brand>
+            <a href="#home">React-Bootstrap</a>
+          </Navbar.Brand>
+        </Navbar.Header>
+        <Nav>
+          <NavItem eventKey={1} href="#">
+            Correct Guess? Y/N
+          </NavItem>
+          <NavItem eventKey={2} href="#">
+            Scores
+          </NavItem>
+          <NavDropdown eventKey={3} title="Dropdown" id="basic-nav-dropdown">
+            <MenuItem eventKey={3.1}>a</MenuItem>
+            <MenuItem eventKey={3.2}>b</MenuItem>
+            <MenuItem eventKey={3.3}>Something else here</MenuItem>
+            <MenuItem divider />
+            <MenuItem eventKey={3.4}>Separated link</MenuItem>
+          </NavDropdown>
+        </Nav>
+      </Navbar>
+
+   <Grid>
+  <Row className="show-grid">
+  <Col xs={6} md={3}> <AnimalCard></AnimalCard>
+
+    </Col>
+    <Col xs={6} md={3}>
+    <AnimalCard></AnimalCard>
+</Col>
+<Col xs={6} md={3}>
+<AnimalCard></AnimalCard>
+ 
+    </Col>
+    <Col xs={6} md={3}>
+  
+    <AnimalCard>
+    </AnimalCard>
+  
+</Col>
+    </Row>
+
+    {/* ---------------- */}
+
+    <Row className="show-grid">
+  <Col xs={6} md={3}>
+  <AnimalCard></AnimalCard>
+   
+    </Col>
+    <Col xs={6} md={3}>
+    <AnimalCard></AnimalCard>
+</Col>
+<Col xs={6} md={3}>
+<AnimalCard></AnimalCard>
+   
+    </Col>
+    <Col xs={6} md={3}>
+   
+
+    <AnimalCard></AnimalCard>
+
+</Col>
+    </Row>
+
+    {/* ---------------- */}
+</Grid>
+    
       </div>
     );
   }
