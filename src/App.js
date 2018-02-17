@@ -1,14 +1,14 @@
 
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import ReactDOM from 'react-dom';
+
 import './App.css';
 import 'typeface-roboto'; 
 import "./styles/bootstrap.css";
 import "./styles/card.css";
-
-import AppBar from 'material-ui/AppBar';
-import NavBar from 'material-ui/AppBar';
+import "./styles/img.css";
+// import AppBar from 'material-ui/AppBar';
+// import NavBar from 'material-ui/AppBar';
 import MenuItem from 'react-bootstrap/lib/MenuItem';
 import Nav from 'react-bootstrap/lib/Nav';
 import Navbar from 'react-bootstrap/lib/Navbar';
@@ -18,10 +18,9 @@ import Grid from 'react-bootstrap/lib/Grid';
 import Row from 'react-bootstrap/lib/Row';
 import Col from 'react-bootstrap/lib/Col';
 import Panel from 'react-bootstrap/lib/Panel';
+import animals from "./animals.json";
 
 import AnimalCard from "./components/Card";
-import animals from "./animals.js";
-//  import Panel from "components/Panel";
 
 class App extends Component {
     state = {
@@ -54,49 +53,16 @@ class App extends Component {
         </Nav>
       </Navbar>
 
-   <Grid>
-  <Row className="show-grid">
-  <Col xs={6} md={3}> <AnimalCard></AnimalCard>
-
-    </Col>
-    <Col xs={6} md={3}>
-    <AnimalCard></AnimalCard>
-</Col>
-<Col xs={6} md={3}>
-<AnimalCard></AnimalCard>
- 
-    </Col>
-    <Col xs={6} md={3}>
-  
-    <AnimalCard>
-    </AnimalCard>
-  
-</Col>
+      <Grid>
+      <Row className="show-grid"> {this.state.animals.map(animal => (
+    <AnimalCard
+      id={animal.id}
+      key={animal.id}
+      name={animal.name}
+      image={animal.image}
+    />
+  ))}
     </Row>
-
-    {/* ---------------- */}
-
-    <Row className="show-grid">
-  <Col xs={6} md={3}>
-  <AnimalCard></AnimalCard>
-   
-    </Col>
-    <Col xs={6} md={3}>
-    <AnimalCard></AnimalCard>
-</Col>
-<Col xs={6} md={3}>
-<AnimalCard></AnimalCard>
-   
-    </Col>
-    <Col xs={6} md={3}>
-   
-
-    <AnimalCard></AnimalCard>
-
-</Col>
-    </Row>
-
-    {/* ---------------- */}
 </Grid>
     
       </div>
