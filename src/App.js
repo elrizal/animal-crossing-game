@@ -7,7 +7,8 @@ import 'typeface-roboto';
 import "./styles/bootstrap.css";
 import "./styles/card.css";
 import "./styles/img.css";
-// import AppBar from 'material-ui/AppBar';
+import "./styles/header.css";
+ import AppBar from 'material-ui/AppBar';
 // import NavBar from 'material-ui/AppBar';
 import MenuItem from 'react-bootstrap/lib/MenuItem';
 import Nav from 'react-bootstrap/lib/Nav';
@@ -32,7 +33,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-      <Navbar>
+      {/* <Navbar>
         <Navbar.Header>
           <Navbar.Brand>
             <a href="#home">React-Bootstrap</a>
@@ -45,17 +46,12 @@ class App extends Component {
           <NavItem eventKey={2} href="#">
             Scores
           </NavItem>
-          <NavDropdown eventKey={3} title="Dropdown" id="basic-nav-dropdown">
-            <MenuItem eventKey={3.1}>a</MenuItem>
-            <MenuItem eventKey={3.2}>b</MenuItem>
-            <MenuItem eventKey={3.3}>Something else here</MenuItem>
-            <MenuItem divider />
-            <MenuItem eventKey={3.4}>Separated link</MenuItem>
-          </NavDropdown>
         </Nav>
-      </Navbar>
+      </Navbar> */}
 
       <Grid>
+      <AppBar>blaaah </AppBar>
+      <div className="top"></div>
       <Row className="show-grid"> {this.state.animals.map(animal => (
     <AnimalCard
       id={animal.id}
