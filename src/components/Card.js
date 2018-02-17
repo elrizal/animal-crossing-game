@@ -6,11 +6,22 @@ import Grid from 'react-bootstrap/lib/Grid';
 import Row from 'react-bootstrap/lib/Row';
 import Col from 'react-bootstrap/lib/Col';
 
+function ActionLink() {
+  function handleClick(e) {
+    e.preventDefault();
+    console.log('The link was clicked.');
+  }
+
+  return (
+    <a href="#" onClick={handleClick}>
+      Click me
+    </a>
+  );
+}
 const AnimalCard = props => {
   console.log(props);
 
   return (
-   
     <Col xs={6} md={3}>
     <Panel>
   <div className="img-container">
@@ -18,6 +29,7 @@ const AnimalCard = props => {
   </div>
   <div className="content"> 
         <strong> {props.name} </strong>
+        
   </div>
   </Panel>
   </Col>

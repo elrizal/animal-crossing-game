@@ -21,6 +21,8 @@ import Panel from 'react-bootstrap/lib/Panel';
 import animals from "./animals.json";
 
 import AnimalCard from "./components/Card";
+import ActionLink from "./components/Card";
+
 
 class App extends Component {
     state = {
@@ -60,6 +62,7 @@ class App extends Component {
       key={animal.id}
       name={animal.name}
       image={animal.image}
+      
     />
   ))}
     </Row>
