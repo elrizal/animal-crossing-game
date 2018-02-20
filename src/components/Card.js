@@ -29,7 +29,7 @@ const AnimalCard = props => {
   </div>
   <div className="content"> 
         <strong> {props.name} </strong>
-        
+{ActionLink()}   
   </div>
   </Panel>
   </Col>

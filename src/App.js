@@ -50,7 +50,8 @@ class App extends Component {
       </Navbar> */}
 
       <Grid>
-      <AppBar>blaaah </AppBar>
+      <AppBar><h4>Animal Crossing Memory Game   |   <b>Your guess is</b> c/i   |  Scores: </h4></AppBar>
+      <div className="background">
       <div className="top"></div>
       <Row className="show-grid"> {this.state.animals.map(animal => (
     <AnimalCard
@@ -61,7 +62,7 @@ class App extends Component {
       
     />
   ))}
-    </Row>
+    </Row></div>
 </Grid>
     
       </div>

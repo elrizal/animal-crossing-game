@@ -1,4 +1,8 @@
-
+background {
+  background: url(https://raw.githubusercontent.com/elrizal/clickgame/master/public/img/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
 img {
     vertical-align: middle;
     border-radius: 40%;
