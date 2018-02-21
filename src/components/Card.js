@@ -9,32 +9,42 @@ import Col from 'react-bootstrap/lib/Col';
 function ActionLink() {
   function handleClick(e) {
     e.preventDefault();
-    console.log('The link was clicked.');
+    let onClick = {handleClick};
+    if (handleClick) {
+      return (
+       console.log('click recorded')
+      );
+    } 
+    if( handleClick => 1){
+      console.log("clicked more than once")
+    }
   }
-
   return (
     <a href="#" onClick={handleClick}>
       Click me
     </a>
   );
 }
+
+ 
 const AnimalCard = props => {
-  console.log(props);
+    console.log(props);
+  //stateful component
 
-  return (
-    <Col xs={6} md={3}>
-    <Panel>
-  <div className="img-container">
-    <img alt={props.name} src={`${props.image}`} className="char-img" />
-  </div>
-  <div className="content"> 
-        <strong> {props.name} </strong>
-{ActionLink()}   
-  </div>
-  </Panel>
-  </Col>
 
-  );
+    return (
+      <Col xs={6} md={3}>
+      <Panel>
+      <div className="img-container">
+      <img alt={props.name} src={`${props.image}`} className="char-img" />
+      </div>
+      <div className="content"> 
+      <strong> {props.name} </strong>
+        {ActionLink()}   
+    </div>
+    </Panel>
+    </Col>
+    );
 };
 
 function Welcome(props) {

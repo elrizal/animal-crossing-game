@@ -3,61 +3,73 @@
   {
     "id": 1,
     "name": "Apollo",
+    "clickstate": false,
     "image": "https://raw.githubusercontent.com/elrizal/clickgame/master/public/img/Apollo.png"
   },
   {
     "id": 2,
     "name": "Beau",
+    "clickstate": false,
     "image": "https://raw.githubusercontent.com/elrizal/clickgame/master/public/img/Beau.png"
   },
   {
     "id": 3,
     "name": "Bianca",
+    "clickstate": false,
     "image": "https://raw.githubusercontent.com/elrizal/clickgame/master/public/img/Bianca.png"
   },
   {
     "id": 4,
     "name": "Bonbon",
+    "clickstate": false,
    "image": "https://raw.githubusercontent.com/elrizal/clickgame/master/public/img/Bonbon.png"
   },
   {
     "id": 5,
     "name": "Bones",
+    "clickstate": false,
     "image": "https://raw.githubusercontent.com/elrizal/clickgame/master/public/img/Bones.png"
   },
   {
     "id": 6,
     "name": "Butch",
+    "clickstate": false,
     "image": "https://raw.githubusercontent.com/elrizal/clickgame/master/public/img/Butch.png"
   },
   {
     "id": 7,
     "name": "Cheri",
+    "clickstate": false,
     "image": "https://raw.githubusercontent.com/elrizal/clickgame/master/public/img/Cheri_.png"
   },
   {
     "id": 8,
     "name": "Freya",
+    "clickstate": false,
     "image": "https://raw.githubusercontent.com/elrizal/clickgame/master/public/img/Freya.png"
   },
   {
     "id": 9,
     "name": "Mitzi",
+    "clickstate": false,
     "image": "https://raw.githubusercontent.com/elrizal/clickgame/master/public/img/Mitzi.png"
   },
   {
     "id": 10,
     "name": "Pecan",
+    "clickstate": false,
     "image": "https://raw.githubusercontent.com/elrizal/clickgame/master/public/img/Pecan.png"
   },
   {
     "id": 11,
     "name": "Punchy",
+    "clickstate": false,
     "image": "https://raw.githubusercontent.com/elrizal/clickgame/master/public/img/Punchy.png"
   },
   {
     "id": 12,
     "name": "Merengue",
+    "clickstate": false,
     "image": "https://raw.githubusercontent.com/elrizal/clickgame/master/public/img/Merengue.png"
   }
 ]
