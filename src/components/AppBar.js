@@ -1,12 +1,14 @@
 import React from 'react';
 import AppBar from 'material-ui/AppBar';
-export { default } from "./Card";
 
-const AppBar = () => (
-  <AppBar
-    title="Title"
-    iconClassNameleft="muidocs-icon-navigation-expand-more"
-  />
+const appBar = () => (
+  <AppBar>
+  <div className="row">
+  <div col md={6}>
+  <h3>Animal Crossing Memory Game  </h3> </div>  
+   <div col md={6}> <b>Your guess is</b> c/i |  Scores: </div>
+    </div>
+    </AppBar>
 );
 
-export default AppBar;
+export default appBar;
