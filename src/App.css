@@ -9,7 +9,10 @@ h3, h4 {
   color: gray;
   padding: 10px;
 }
-h1{padding-top:50px}
+h1{
+  font-weight: 700;
+  padding-top:10%
+}
 .header {
   background-color: #39807f75;
   background-image: url("https://res.cloudinary.com/diuubtvqd/image/upload/v1551985118/Amf8kTkOpnMnLNmHp-BFoq7gf3HHkFKo_hOMi_6xgb8.jpg");

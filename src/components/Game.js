@@ -73,8 +73,8 @@ class Game extends Component {
   render() {
     return (
       <React.Fragment>
-    <h4>         Current Score: {this.state.currentScore} || Top Score: {this.state.topScore}
-    </h4>
+    <h3>         Current Score: {this.state.currentScore} || Top Score: {this.state.topScore}
+    </h3>
         <div className="container-fluid">
           <Row>
             {this.state.cardData.map(card => {
