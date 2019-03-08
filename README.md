@@ -7,6 +7,3 @@ This application is intended to work as a memory game. Everytime the player clic
 - React & Yarn
 - Bootstrap UI and Material UI for css
 - Bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app)
-
-## Current Issues:
-Currently working out interactions of the game for the user. I am also unable to deploy the application to heroku at the moment. 
