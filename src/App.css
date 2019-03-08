@@ -9,11 +9,13 @@ h3, h4 {
   color: gray;
   padding: 10px;
 }
+h1{padding-top:50px}
 .header {
-  background-color: #39807f;
-  height: 150px;
-  padding: 20px;
-  color: #c6df96
+  background-color: #39807f75;
+  background-image: url("https://res.cloudinary.com/diuubtvqd/image/upload/v1551985118/Amf8kTkOpnMnLNmHp-BFoq7gf3HHkFKo_hOMi_6xgb8.jpg");
+  background-repeat: repeat-y;
+  padding: 100px;
+  color: #255727
 }
 
 .App-title {

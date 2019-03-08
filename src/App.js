@@ -10,7 +10,7 @@ class App extends Component {
       <React.Fragment >
           <div className="header">
           <div className="container">
-          <h1><i class="fas fa-leaf"></i> Animal Crossing Memory "game"</h1>
+          <i class="fas fa-leaf"></i> <h1>Animal Crossing Memory "game"</h1>
           <p>Don't click on the neighbors that you've clicked on before!</p>
           </div>         
           </div>

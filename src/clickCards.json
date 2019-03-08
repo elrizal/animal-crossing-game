@@ -4,72 +4,78 @@
     "id": 1,
     "name": "Apollo",
     "clickstate": false,
-    "image": "https://raw.githubusercontent.com/elrizal/clickgame/master/public/img/Apollo.png"
+    "image": "https://res.cloudinary.com/diuubtvqd/image/upload/v1551983983/Apollo.jpg"
   },
   {
     "id": 2,
     "name": "Beau",
     "clickstate": false,
-    "image": "https://raw.githubusercontent.com/elrizal/clickgame/master/public/img/Beau.png"
+    "image": "https://res.cloudinary.com/diuubtvqd/image/upload/v1551983983/Beau.jpg"
   },
   {
     "id": 3,
     "name": "Bianca",
     "clickstate": false,
-    "image": "https://raw.githubusercontent.com/elrizal/clickgame/master/public/img/Bianca.png"
+    "image": "https://res.cloudinary.com/diuubtvqd/image/upload/v1551983983/Bianca.jpg"
   },
   {
     "id": 4,
     "name": "Bonbon",
     "clickstate": false,
-   "image": "https://raw.githubusercontent.com/elrizal/clickgame/master/public/img/Bonbon.png"
+   "image": "https://res.cloudinary.com/diuubtvqd/image/upload/v1551983983/Bonbon.jpg"
   },
   {
     "id": 5,
     "name": "Bones",
     "clickstate": false,
-    "image": "https://raw.githubusercontent.com/elrizal/clickgame/master/public/img/Bones.png"
+    "image": "https://res.cloudinary.com/diuubtvqd/image/upload/v1551983983/Bones.jpg"
   },
   {
     "id": 6,
     "name": "Butch",
     "clickstate": false,
-    "image": "https://raw.githubusercontent.com/elrizal/clickgame/master/public/img/Butch.png"
+    "image": "https://res.cloudinary.com/diuubtvqd/image/upload/v1551983983/Butch.jpg"
   },
   {
     "id": 7,
     "name": "Cheri",
     "clickstate": false,
-    "image": "https://raw.githubusercontent.com/elrizal/clickgame/master/public/img/Cheri_.png"
+    "image": "https://res.cloudinary.com/diuubtvqd/image/upload/v1551983983/Cheri_.jpg"
   },
   {
     "id": 8,
     "name": "Freya",
     "clickstate": false,
-    "image": "https://raw.githubusercontent.com/elrizal/clickgame/master/public/img/Freya.png"
+    "image": "https://res.cloudinary.com/diuubtvqd/image/upload/v1551983983/Freya.jpg"
   },
   {
     "id": 9,
     "name": "Mitzi",
     "clickstate": false,
-    "image": "https://raw.githubusercontent.com/elrizal/clickgame/master/public/img/Mitzi.png"
+    "image": "https://res.cloudinary.com/diuubtvqd/image/upload/v1551983983/Mitzi.jpg"
   },
   {
     "id": 10,
     "name": "Pecan",
     "clickstate": false,
-    "image": "https://raw.githubusercontent.com/elrizal/clickgame/master/public/img/Pecan.png"
+    "image": "https://res.cloudinary.com/diuubtvqd/image/upload/v1551983983/Pecan.jpg"
   },
   {
     "id": 11,
     "name": "Punchy",
     "clickstate": false,
-    "image": "https://raw.githubusercontent.com/elrizal/clickgame/master/public/img/Punchy.png"
+    "image": "https://res.cloudinary.com/diuubtvqd/image/upload/v1551983983/Punchy.jpg"
   },
   {
     "id": 12,
     "name": "Merengue",
     "clickstate": false,
-    "image": "https://raw.githubusercontent.com/elrizal/clickgame/master/public/img/Merengue.png"
+    "image": "https://res.cloudinary.com/diuubtvqd/image/upload/v1551983983/Merengue.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Bigtop",
+    "clickstate": false,
+    "image": "https://res.cloudinary.com/diuubtvqd/image/upload/v1551983983/Bigtop.jpg"
   }
 ]
