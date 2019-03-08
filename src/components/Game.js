@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
-import Col from 'react-bootstrap/lib/Col';
 import Row from 'react-bootstrap/lib/Row';
-import Panel from 'react-bootstrap/lib/Panel';
 import cardData from '../clickCards.json';
-import AppBar from 'material-ui/AppBar';
 import Card from 'material-ui/Card';
 
 class Game extends Component {
@@ -76,14 +73,14 @@ class Game extends Component {
   render() {
     return (
       <React.Fragment>
-    <h4>         Current Score: {this.state.currentScore} || Top Score: {this.state.topScore}
-    </h4>
+    <h3>         Current Score: {this.state.currentScore} || Top Score: {this.state.topScore}
+    </h3>
         <div className="container-fluid">
           <Row>
             {this.state.cardData.map(card => {
                 return (
-                <div className="col-12 col-sm-3 col-md-3 img-container" key={card.id}>
-                <Card className="img-container">
+                <div className="col-12 col-sm-3 col-md-3" key={card.id}>
+                <Card className="img-container animated fadeIn">
                     <img
                     src={card.image}
                     alt={card.name}
