@@ -15,7 +15,7 @@ class App extends Component {
           <div class="wordbubble" >
 
           <h5> Okay, maybe you're "not good with names" but the least you could do is remember our faces!
-           Test your memory by clicking on animals you haven't clicked on before!</h5>
+           Test your memory below by clicking on animals you haven't clicked on before!</h5>
           </div>
           </div>         
           </div>
