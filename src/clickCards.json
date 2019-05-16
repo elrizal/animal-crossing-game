@@ -1,11 +1,6 @@
 
 [
-  {
-    "id": 1,
-    "name": "Apollo",
-    "clickstate": false,
-    "image": "https://res.cloudinary.com/diuubtvqd/image/upload/v1551983983/Apollo.jpg"
-  },
+
   {
     "id": 2,
     "name": "Beau",

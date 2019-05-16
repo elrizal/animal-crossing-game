@@ -4,14 +4,19 @@ import './App.css';
 import Grid from 'react-bootstrap/lib/Grid';
 import Game from './components/Game';
 
+
 class App extends Component {
   render() {
     return (
       <React.Fragment >
           <div className="header">
           <div className="container">
-          <i class="fas fa-leaf"></i> <h1>Animal Crossing Memory "game"</h1>
-          <p>Don't click on the neighbors that you've clicked on before!</p>
+          <i class="fas fa-leaf"></i> <h1>Remember Your New Neighbors!</h1>
+          <div class="wordbubble" >
+
+          <h5> Okay, maybe you're "not good with names" but the least you could do is remember our faces!
+           Test your memory by clicking on animals you haven't clicked on before!</h5>
+          </div>
           </div>         
           </div>
         <Grid>
