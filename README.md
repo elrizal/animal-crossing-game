@@ -4,6 +4,6 @@ This application is intended to work as a memory game. Everytime the player clic
 <hr>
 
 ## Made with:
-- React & Yarn
+- React 
 - Bootstrap UI and Material UI for css
 - Bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app)
