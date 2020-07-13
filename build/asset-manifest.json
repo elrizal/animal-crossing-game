@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/animal-crossing-game/static/css/main.06eda0db.chunk.css",
+    "main.js": "/animal-crossing-game/static/js/main.a7bc6e07.chunk.js",
+    "main.js.map": "/animal-crossing-game/static/js/main.a7bc6e07.chunk.js.map",
+    "runtime-main.js": "/animal-crossing-game/static/js/runtime-main.9382e5ef.js",
+    "runtime-main.js.map": "/animal-crossing-game/static/js/runtime-main.9382e5ef.js.map",
+    "static/js/2.04a69dea.chunk.js": "/animal-crossing-game/static/js/2.04a69dea.chunk.js",
+    "static/js/2.04a69dea.chunk.js.map": "/animal-crossing-game/static/js/2.04a69dea.chunk.js.map",
+    "index.html": "/animal-crossing-game/index.html",
+    "precache-manifest.a33bbb5297095e6e8fb70eb33de9217d.js": "/animal-crossing-game/precache-manifest.a33bbb5297095e6e8fb70eb33de9217d.js",
+    "service-worker.js": "/animal-crossing-game/service-worker.js",
+    "static/css/main.06eda0db.chunk.css.map": "/animal-crossing-game/static/css/main.06eda0db.chunk.css.map",
+    "static/js/2.04a69dea.chunk.js.LICENSE.txt": "/animal-crossing-game/static/js/2.04a69dea.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9382e5ef.js",
+    "static/js/2.04a69dea.chunk.js",
+    "static/css/main.06eda0db.chunk.css",
+    "static/js/main.a7bc6e07.chunk.js"
+  ]
+}
