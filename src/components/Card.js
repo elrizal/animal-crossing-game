@@ -5,7 +5,7 @@ import Col from 'react-bootstrap/lib/Col';
  
 const AnimalCard = props => {
     return (
-      <Col xs={6} md={3}>
+      <Col xs={6} md={6}>
       <Panel>
       <div className="img-container">
       <img alt={props.name} src={`${props.image}`} className="char-img" />

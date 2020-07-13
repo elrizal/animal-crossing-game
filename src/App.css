@@ -113,7 +113,7 @@ img:hover {
       height: 100vh
     }
     .wordbubble {
-      min-width: 100%;
-      font-size: 16px;
+      min-width: 80%;
+      font-size: 20px;
     }
 }
