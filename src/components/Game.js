@@ -62,10 +62,10 @@ class Game extends Component {
     <h3>         Current Score: {this.state.currentScore} || Top Score: {this.state.topScore}
     </h3>
         <div className="container-fluid">
-          <Row>
+         
             {this.state.cardData.map(card => {
                 return (
-                <div className="col-12 col-sm-3 col-md-3" key={card.id}>
+                <div key={card.id}>
                 <Card className="img-container animated fadeIn">
                     <img
                     src={card.image}
@@ -77,7 +77,7 @@ class Game extends Component {
                 </div>
                 );
             })}
-            </Row>
+           
         </div>
       </React.Fragment>
     );
