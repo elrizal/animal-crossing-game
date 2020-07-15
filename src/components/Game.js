@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import Row from 'react-bootstrap/lib/Row';
+
 import cardData from '../clickCards.json';
-import Card from 'material-ui/Card';
 
 class Game extends Component {
   state = {
@@ -62,22 +61,19 @@ class Game extends Component {
     <h3>         Current Score: {this.state.currentScore} || Top Score: {this.state.topScore}
     </h3>
         <div className="container-fluid">
-         
+        <div className="grid-container">
             {this.state.cardData.map(card => {
                 return (
-                <div key={card.id}>
-                <Card className="img-container animated fadeIn">
+                <div key={card.id} className="img-container animated fadeIn">
                     <img
                     src={card.image}
                     alt={card.name}
                     onClick={() => this.handleCardClick(card.id)}
                     />
-                    </Card>
-                    <br/>
-                </div>
+                    </div>
                 );
             })}
-           
+          </div>
         </div>
       </React.Fragment>
     );
