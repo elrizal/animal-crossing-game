@@ -1,13 +1,13 @@
 import React from 'react';
-import AppBar from 'material-ui/AppBar';
+//import AppBar from 'material-ui/AppBar';
 
 const NavBar = () => (
-  <AppBar>
+  <div>
   <div className="row">
   <div col md={6}>
   <h3>Animal Crossing Memory Game  </h3> </div>  
     </div>
-    </AppBar>
+    </div>
 );
 
 export default NavBar;
